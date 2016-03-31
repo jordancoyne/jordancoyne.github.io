@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,700|Dosis);
+@import url(https://fonts.googleapis.com/css?family=Playfair:400,700|Playfair+Display);
+
+@media screen{
+header {
+  border: 1px solid rgb(22,23,25);
+  margin:10px;
+  padding:15px;
+  text-align: center;
+}
+body {
+  max-width: 960px;
+  margin: auto;
+  font-size: 13px;
+  font-family: 'Playfair' serif;
+  font-weight: 400;
+  overflow: auto;
+  border: 0px;
+  margin:10px;
+  padding:15px;
+}
+img {
+  float:left;
+  width:250px;
+  height:250px;
+  border: 1px solid rgb(22,23,25);
+  margin: 10px;
+  padding:0px;
+}
+h1, h2, h3, h4 {
+  font-family: 'Dosis' sans-serif;
+  font-weight: 700;
+}
+nav li, nav p {
+  display:inline;
+  margin-right: 20px;
+}
+
+/* links */
+a {
+  color: rgb(31,103,223);
+}
+a:hover {
+ color: rgb(91,25,113);
+}
+a:active {
+  color: rgb(249,201,15)
+}
+a:visited{
+  color: rgb(22,23,25);
+}
+
+/* classes */
+.left {
+  float:left;
+  margin-right: 10px;
+}
+.clear{
+  clear:both;
+}
+.education {
+    float:left;
+    border: 1px solid rgb(22,23,25);
+    margin: 10px;
+    padding: 20px;
+  }
+.leadership {
+  border: 1px solid rgb(22,23,25);
+  margin:10px;
+  padding:20px;
+}
+.hoby, .town, .afs, .ha, .tmh, .gazette {
+  border: 1px solid rgb(22,23,25);
+  margin:10px;
+  padding:15px;
+}
+
+/* ids */
+#education {
+  position:relative;
+  top: 8px;
+}
+}
+
+@media print {
+img, nav{
+    display:none;
+  }
+* {
+    color: #000;
+    background: transparent; !important
+  }
+}

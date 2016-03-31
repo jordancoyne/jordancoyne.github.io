@@ -3,36 +3,57 @@
   <head>
     <meta charset="UTF-8"/>
     <title>Jordan Coyne's Resume</title>
-  </head>
+    <link href="css/style.css" rel="stylesheet"/>
+    </head>
   <body>
   <header>
-    <h1 id="HOME"><strong>JORDAN NICOLE COYNE</strong></h1>
-    <img src="headshot-copy.jpg">
+    <h1 id="home">JORDAN NICOLE COYNE</h1>
     <nav>
       <ul>
-        <li><a href=#HOME>Home</a></li>
-        <li><a href=#EDUCATION>Education</a></li>
-        <li><a href=#WORKEXPERIENCE>Work Experience</a></li>
-        <li><a href=#LEADERSHIPANDHONORS>Leadership and Honors</a></li>
-        <li><a href=#CONTACTINFORMATION>Contact Information</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#leadership">Leadership and Honors</a></li>
+        <li><a href="#contact-info">Contact Information</a></li>
       </ul>
     </nav>
   </header>
-  <main>
 
+  <main>
+  <img src="img/headshot-copy.jpg" alt="Jordan Coyne"/>
   <section>
-  <h2 id="EDUCATION"><strong>EDUCATION</strong></h2>
-      <ul>
+  <h2 id="education">EDUCATION</h2>
+      <ul  class="education">
         <li><strong>University of Miami</strong>, Coral Gables, FL</li>
-        <li><em>Bachelor of Science in Communication</em>, May 2016, GPA: 3.43</li>
+        <li><em>Bachelor of Science in Communication</em></li>
         <li>Major in Print Journalism and International Studies (Pre-Law)</li>
+        <li>May 2016</li>
+        <li>GPA: 3.43</li>
       </ul>
   </section>
 
-  <section>
-  <h2 id="WORKEXPERIENCE"><strong>WORK EXPERIENCE</strong></h2>
-    <article>
-    <h3><strong><a href="http://www.hoby.org">Hugh O’Brian Youth Leadership Foundation</a></strong></h3>
+  <section class="clear">
+  <h2 id="leadership">LEADERSHIP AND HONORS</h2>
+    <ul class="leadership">
+      <li>Dean’s List</li>
+      <li>Zeta Tau Alpha Fraternity
+        <ul>
+          <li>Ritual Chair</li>
+          <li>Greek Week Chair</li>
+          <li>Recruitment Roundchair</li>
+          <li>Think Pink Week Coach)</li>
+        </ul>
+      <li>Greek Week Executive Board Fundraising Chair</li>
+      <li>Fun Day Group Leader</li>
+      <li>Dance Marathon Recruitment Committee Member</li>
+      <li>Homecoming Executive Committee Opening Ceremonies Co-Chair</li>
+    </ul>
+  </section>
+
+  <section class="work">
+  <h2 id="work">WORK EXPERIENCE</h2>
+    <article class="hoby">
+    <h3><a href="http://www.hoby.org">Hugh O’Brian Youth Leadership Foundation</a></h3>
       <h4>Co-Director of Program (MD), August 2014-present</h4>
       <ul>
         <li>Plan and execute a 4-day youth leadership program with inspiring speakers and developmental activities</li>
@@ -47,8 +68,8 @@
       </ul>
     </article>
 
-    <article>
-    <h3><strong>Town Kitchen and Bar</strong>, Miami, FL</h3>
+    <article class="town">
+    <h3>Town Kitchen and Bar, Miami, FL</h3>
       <h4>Hostess/Server, April 2015-present</h4>
       <ul>
         <li>Greet guests and make them feel at home and catered to during their stay</li>
@@ -56,8 +77,8 @@
       </ul>
     </article>
 
-    <article>
-    <h3><strong>Association Financial Services</strong>, Miami Beach, FL</h3>
+    <article class="afs">
+    <h3>Association Financial Services, Miami Beach, FL</h3>
       <h4>Marketing/Legal Intern, April 2015-July 2015</h4>
       <ul>
         <li>Developed SNAP Collection Cares, a marketing campaign aimed at changing corporate culture</li>
@@ -65,8 +86,8 @@
       </ul>
     </article>
 
-    <article>
-    <h3><strong>Hurricane Aquatics</strong>, Miami, FL</h3>
+    <article class="ha">
+    <h3>Hurricane Aquatics, Miami, FL</h3>
       <h4>Stroke School Coach, February 2014-present</h4>
       <ul>
         <li>Build on children’s fundamental knowledge of swimming</li>
@@ -74,8 +95,8 @@
       </ul>
     </article>
 
-    <article>
-    <h3><strong>The Miami Hurricane</strong>, Coral Gables, FL</h3>
+    <article class=tmh>
+    <h3>The Miami Hurricane, Coral Gables, FL</h3>
       <h4>Copy Chief, May 2013-November 2013</h4>
       <ul>
         <li>Managed a staff of copy editors who edit all copy for stylistic consistency</li>
@@ -88,39 +109,32 @@
       </ul>
     </article>
 
-    <article>
-    <h3><strong>The Gazette</strong>, Gaithersburg, MD</h3>
+    <article class="gazette">
+    <h3>The Gazette, Gaithersburg, MD</h3>
       <h4>Sports Desk Intern, May 2013-August 2013</h4>
       <ul>
         <li>Report on local sporting events ranging from the high school to professional level</li>
         <li>Find, develop and pitch story ideas at weekly brainstorming meetings</li>
       </ul>
     </article>
-    </section>
+  </section>
 
     <section>
-    <h2 id="LEADERSHIPANDHONORS"><strong>LEADERSHIP AND HONORS</strong></h2>
-      <ul>
-        <li>Dean’s List</li>
-        <li>Zeta Tau Alpha Fraternity (Ritual Chair, Greek Week Chair, Recruitment Roundchair, Think Pink Week Coach)</li>
-        <li>Greek Week Executive Board, Fundraising Chair</li>
-        <li>Fun Day Group Leader</li>
-        <li>Dance Marathon Recruitment Committee Member</li>
-        <li>Homecoming Executive Committee, Opening Ceremonies Co-Chair</li>
-      </ul>
-    </section>
-
-    <section>
-    <h2 id="CONTACTINFORMATION">Contact Information</h2>
-      <p>(301) 537-6355<br  /><a href="mailto:jcoyne13@gmail.com">jcoyne13@gmail.com</a><br  /><em>5890 SW 60th St.<br  />Coral Gables, FL 33143</em></p>
+    <h2 id="contact-info">CONTACT INFORMATION</h2>
+    <address class="contact">
+      <p>(301) 537-6355<br  />
+      <a href="mailto:jcoyne13@gmail.com">jcoyne13@gmail.com</a><br  />
+      <em>5890 SW 60th St.<br  />Coral Gables, FL 33143</em></p>
+    </address>
     </section>
 
   </main>
-  </body>
   <footer>
     <nav>
-      <p><a href=#HOME>Return to Top</a></li><br  />
-      <a href=#CONTACTINFORMATION>Contact Me</a></li></p>
+      <p><a href="#home">Return to Top</a></p>
+      <p><a href="#contact-info">Contact Me</a></p>
+      <p>&copy; Copyright 2016</p>
     </nav>
   </footer>
+  </body>
 </html>
