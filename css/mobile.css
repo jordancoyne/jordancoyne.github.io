@@ -21,10 +21,9 @@ header, footer {
   width: 75%;
 }
 
-background-size {
+background-image-size {
   width: 320px;
   height: auto;
-  vertical-align: right;
 }
 
 h1 {
