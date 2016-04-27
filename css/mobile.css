@@ -12,8 +12,10 @@ header, footer {
   width: 75%;
 }
 
-background-image{
-  width: auto;
+background-image.mobile{
+  width: 320px;
+  height: auto;
+  vertical-align: middle;
 }
 
 h1 {
