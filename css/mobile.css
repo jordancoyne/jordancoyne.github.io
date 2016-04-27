@@ -21,10 +21,10 @@ header, footer {
   width: 75%;
 }
 
-background-image.mobile{
+background-size.mobile{
   width: 320px;
   height: auto;
-  vertical-align: middle;
+  vertical-align: right;
 }
 
 #enter {
