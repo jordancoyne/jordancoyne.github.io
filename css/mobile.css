@@ -27,11 +27,13 @@ nav li{
 header {
   margin: 0 auto;
   overflow: hidden;
-  min-width: 250px;
 }
+
 h1 {
-  font-size: 75%
+  margin: 0 auto;
+  font-size: 125%;
 }
+
 h2, h3, h4, p {
   font-size: 100%;
   line-height: 1.5;
