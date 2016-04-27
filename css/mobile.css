@@ -16,6 +16,12 @@ body {
   margin: 0;
   padding: .5em;}
 
+#bio, .resume {
+    border: 0;
+    max-width: 75%;
+    margin: 0;
+    padding: .5em;}
+
 nav li{
    font-size: 8px;
    margin: 0px, 1px;
