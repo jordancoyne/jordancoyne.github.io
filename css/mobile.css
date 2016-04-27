@@ -22,10 +22,6 @@ nav li{
    margin-right: 2px;
  }
 
-header, footer {
-  width: 75%;
-}
-
 background-image-size {
   width: 320px;
   height: auto;
