@@ -8,6 +8,10 @@ nav li{
    margin-right: 2px;
  }
 
+header, footer {
+  width: 75%;
+}
+
 h1 {
   font-size: 24px;
 }
