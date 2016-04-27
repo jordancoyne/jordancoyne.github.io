@@ -29,7 +29,9 @@ header {
   overflow: hidden;
   min-width: 200px;
 }
-
+h1 {
+  font-size: 75%
+}
 h2, h3, h4, p {
   font-size: 100%;
   line-height: 1.5;
