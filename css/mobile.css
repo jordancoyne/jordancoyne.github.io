@@ -10,17 +10,17 @@ p, li {
 }
 
 nav, footer {
-    font-size: 100%;
+    font-size: 12px;
     line-height: 1.5;
 }
 
 h1 {
-  font-size: 125%;
+  font-size: 24px;
   line-height: 1.5;
 }
 
 h2, h3 {
-  font-size: 112.5%;
+  font-size: 16px;
   line-height: 1.5;
 }
 
