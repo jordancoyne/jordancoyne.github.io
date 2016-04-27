@@ -10,11 +10,12 @@ body {
   font-size: 12px;
   background-size: 320px;
 }
+
 #wrapper {
   border: 0;
   max-width: 320px;
   margin: 0;
-  padding: 1 em;
+  padding: .5em;
   }
 
 nav li{
@@ -24,7 +25,8 @@ nav li{
  }
 
 h1 {
-  font-size: 24px;
+  font-size: 125%;
+  line-height: 1.5;
 }
 
 h2 {
