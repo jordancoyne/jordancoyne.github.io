@@ -9,12 +9,17 @@ p, li {
   line-height: 1.5;
 }
 
-header h1, {
-    font-size: 125%;
+nav, footer {
+    font-size: 100%;
     line-height: 1.5;
 }
 
-h2, h3, footer{
+h1 {
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+h2, h3 {
   font-size: 112.5%;
   line-height: 1.5;
 }
