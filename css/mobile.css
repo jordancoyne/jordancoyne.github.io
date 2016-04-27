@@ -24,9 +24,10 @@ nav li{
    margin-right: 2px;
  }
 
-header h1 {
+header {
   font-size: 125%;
   line-height: 1;
+  margin: 0 auto;
 }
 
 h2, h3, h4, p {
