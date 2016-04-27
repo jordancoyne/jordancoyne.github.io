@@ -16,13 +16,10 @@ body {
   margin: 0;
   padding: .5em;
   font-size: 125%;
-  line-height: 1.5;
-  }
-  
+  line-height: 1.5;}
+
 #wrapper p {
-  position:relative;
-  top: 50px;
-  right: 50px;
+  text-align: left;
 }
 
 nav li{
