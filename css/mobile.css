@@ -18,6 +18,12 @@ background-image.mobile{
   vertical-align: middle;
 }
 
+#enter {
+    position:relative;
+    top: 25px;
+    left: 100px;}
+}
+
 h1 {
   font-size: 24px;
 }
