@@ -25,7 +25,7 @@ body {
 .column1of2, .column2of2 {
     width: 200px;
     margin: 5px;
-    align-items: center;
+    text-align: center;
     overflow: scroll;
     }
 
