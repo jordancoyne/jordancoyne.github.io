@@ -92,11 +92,13 @@ footer {
   text-align: center;}
 
 #bio {
-  width: 350px;
-  margin: 10px;
   padding: 10px;
   background-color: #FFFFFF;
   opacity: .85;}
+
+#bio p {
+  font-size: 24px;
+}
 
 #list {
   float: left;
@@ -105,9 +107,7 @@ footer {
 .column1of2, .column2of2 {
   width: 350px;
   float: left;
-  margin: 10px;
-  position:relative;
-  left: 12.5%}
+  margin: 5px;}
 
 .resume {
   background-color: #FFFFFF;
