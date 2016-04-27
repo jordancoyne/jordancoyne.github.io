@@ -16,11 +16,17 @@ body {
   margin: 0;
   padding: .5em;}
 
-#bio, .resume {
+.resume {
     border: 0;
     max-width: 75%;
     margin: 0;
     padding: .5em;}
+
+.column1of2, .column2of2 {
+    width: 75%;
+    margin: 5px;
+    10px;
+    }
 
 nav li{
    font-size: 8px;
