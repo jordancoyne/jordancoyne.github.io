@@ -18,8 +18,7 @@ body {
 
 nav li{
    font-size: 8px;
-   margin-right: 1px;
-   margin-left: 1px;
+   margin: 5px, 1px;
    text-align: center;
  }
 
