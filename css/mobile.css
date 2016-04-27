@@ -21,7 +21,7 @@ header, footer {
   width: 75%;
 }
 
-background-size.mobile{
+background-size {
   width: 320px;
   height: auto;
   vertical-align: right;
