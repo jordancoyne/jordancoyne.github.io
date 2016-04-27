@@ -41,6 +41,7 @@ a:hover {
 
 a:active {
   color: #88E05C;}
+
 img {
   width: 350px;
   margin: 0px;}
@@ -70,13 +71,11 @@ footer{
   max-width: 750px;
   min-width: 360px;
   margin: 0 auto;
-  padding: 1em;
-}
+  padding: 1em;}
 
 #nav {
   margin: 10px auto 10px auto;
-  text-align: center;
-}
+  text-align: center;}
 
 #bio {
   width: 350px;
@@ -88,8 +87,7 @@ footer{
 .column1of2, .column2of2 {
   width: 350px;
   float: left;
-  margin: 10px;
-}
+  margin: 10px;}
 
 .resume {
   background-color: #FFFFFF;
@@ -98,11 +96,11 @@ footer{
   margin: 10px auto 10px auto;
   padding: 10px;}
 }
-}
 
 ...
 
 @media print {
+@page {margin: 0.5in;}
 * {
   color: #000000;
   background: transparent; !important;
@@ -112,14 +110,8 @@ footer{
   padding: .25in;}
 
 footer {
-    display: none;
-}
+    display: none;}
 
 a {
-  text-decoration: none;
-}
-@page {
-  margin: 0.5in;}
-
-
+  text-decoration: none;}
 }
