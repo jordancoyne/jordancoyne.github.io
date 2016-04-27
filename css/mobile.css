@@ -18,6 +18,12 @@ body {
   font-size: 125%;
   line-height: 1.5;
   }
+  
+#wrapper p {
+  position:relative;
+  top: 50px;
+  right: 50px;
+}
 
 nav li{
    display: inline;
