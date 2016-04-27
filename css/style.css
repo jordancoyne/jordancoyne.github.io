@@ -1,93 +1,105 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:400,700|Dosis);
-@import url(https://fonts.googleapis.com/css?family=Playfair:400,700|Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Satisfy);
 
 @media screen{
+body {
+  background-image: url("../img/greenbackground.jpg");
+  background-attachment:fixed;
+  min-width: 320px;
+  min-height: 568px;
+  font-family:Josefin Sans, sans-serif;
+  font-size: 16px;
+  color: #000000;}
+
 header {
-  border: 1px solid rgb(22,23,25);
-  margin:10px;
-  padding:15px;
+  text-align: center;
+  background-color: #FFFFFF;
+  opacity: .85;
+  width: 75%;
+  margin: 5px auto 5px auto;
+  padding: 5px;}
+
+h1 {
+  font-family:'Satisfy', cursive;
+  font-size: 72px;
+  color: #000000;}
+
+nav li, nav p {
+  display: inline;
+  margin-right: 20px;}
+
+a {
+  color: #000000;}
+
+a:visited{
+  color: rgb(22,23,25);}
+
+a:hover {
+ color: rgb(91,25,113);}
+
+a:active {
+  color: rgb(249,201,15)}
+img {
+  width: 350px;
+  margin: 10px;}
+
+h2 {font-family:'Satisfy', cursive;
+ font-size: 36px;
+ color: #000000;
+ margin: 0px;
+ padding: 5px;}
+
+h3 {
+  font-family:'Satisfy', cursive;
+ font-size: 24px;
+ color: #000000;
+ margin: 0px;
+ padding: 5px;}
+
+
+
+footer{
+  background-color: #FFFFFF;
+  opacity: .85;
+  width: 75%;
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  clear: left;}
+
+#nav {
+  margin: 10px auto 10px auto;
   text-align: center;
 }
-body {
-  max-width: 960px;
-  margin: auto;
-  font-size: 13px;
-  font-family: 'Playfair' serif;
-  font-weight: 400;
-  overflow: auto;
-  border: 0px;
-  margin:10px;
-  padding:15px;
-}
-img {
-  float:left;
-  width:250px;
-  height:250px;
-  border: 1px solid rgb(22,23,25);
+
+#bio {
+  width: 350px;
   margin: 10px;
-  padding:0px;
-}
-h1, h2, h3, h4 {
-  font-family: 'Dosis' sans-serif;
-  font-weight: 700;
-}
-nav li, nav p {
-  display:inline;
-  margin-right: 20px;
+  padding: 10px;
+  background-color: #949494;
+  opacity: .85;}
+
+.column1of2, .column2of2 {
+  width: 350px;
+  float: left;
+  margin: 10px;
 }
 
-/* links */
-a {
-  color: rgb(31,103,223);
-}
-a:hover {
- color: rgb(91,25,113);
-}
-a:active {
-  color: rgb(249,201,15)
-}
-a:visited{
-  color: rgb(22,23,25);
+.resume {
+  background-color: #FFFFFF;
+  opacity: .85;
+  width: 90%;
+  margin: 10px auto 10px auto;
+  padding: 10px;}
 }
 
-/* classes */
-.left {
-  float:left;
-  margin-right: 10px;
-}
-.clear{
-  clear:both;
-}
-.education {
-    float:left;
-    border: 1px solid rgb(22,23,25);
-    margin: 10px;
-    padding: 20px;
-  }
-.leadership {
-  border: 1px solid rgb(22,23,25);
-  margin:10px;
-  padding:20px;
-}
-.hoby, .town, .afs, .ha, .tmh, .gazette {
-  border: 1px solid rgb(22,23,25);
-  margin:10px;
-  padding:15px;
-}
-
-/* ids */
-#education {
-  position:relative;
-  top: 8px;
-}
-}
+...
 
 @media print {
-img, nav{
-    display:none;
-  }
 * {
-    color: #000;
-    background: transparent; !important
-  }
+  color: #000;
+  background: transparent; !important}
+
+nav{
+  display:none;
+    }
+
 }
