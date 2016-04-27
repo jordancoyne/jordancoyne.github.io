@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Satisfy);
+
 @media (max-width: 320px){
 
 nav li{
@@ -24,6 +26,10 @@ h4 {
 
 body {
   font-size: 12px;
+}
+
+img {
+  width: 320px;
 }
 
 #wrapper {
