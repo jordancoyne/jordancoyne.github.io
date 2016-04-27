@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Satisfy);
 
-@media screen{
+@media screen {
 body {
   background-image: url("../img/greenbackground.jpg");
   background-attachment:fixed;
@@ -8,15 +8,18 @@ body {
   min-height: 568px;
   font-family:Josefin Sans, sans-serif;
   font-size: 16px;
-  color: #000000;}
+  color: #000000;
+  }
 
 header {
   text-align: center;
   background-color: #FFFFFF;
   opacity: .85;
   width: 75%;
-  margin: 5px auto 5px auto;
-  padding: 5px;}
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  line-height: 75%;
+  overflow: hidden;}
 
 h1 {
   font-family:'Satisfy', cursive;
@@ -31,16 +34,16 @@ a {
   color: #000000;}
 
 a:visited{
-  color: rgb(22,23,25);}
+  color: #949494;}
 
 a:hover {
- color: rgb(91,25,113);}
+ color: #FFFFFF;}
 
 a:active {
-  color: rgb(249,201,15)}
+  color: #88E05C;}
 img {
   width: 350px;
-  margin: 10px;}
+  margin: 0px;}
 
 h2 {font-family:'Satisfy', cursive;
  font-size: 36px;
@@ -55,8 +58,6 @@ h3 {
  margin: 0px;
  padding: 5px;}
 
-
-
 footer{
   background-color: #FFFFFF;
   opacity: .85;
@@ -64,6 +65,13 @@ footer{
   margin: 5px auto 5px auto;
   padding: 5px;
   clear: left;}
+
+#wrapper{
+  max-width: 750px;
+  min-width: 360px;
+  margin: 0 auto;
+  padding: 1em;
+}
 
 #nav {
   margin: 10px auto 10px auto;
@@ -74,7 +82,7 @@ footer{
   width: 350px;
   margin: 10px;
   padding: 10px;
-  background-color: #949494;
+  background-color: #FFFFFF;
   opacity: .85;}
 
 .column1of2, .column2of2 {
@@ -90,16 +98,28 @@ footer{
   margin: 10px auto 10px auto;
   padding: 10px;}
 }
+}
 
 ...
 
 @media print {
 * {
-  color: #000;
-  background: transparent; !important}
+  color: #000000;
+  background: transparent; !important;
+  font-family: serif;
+  font-size: 12pt;
+  margin: .5in;
+  padding: .25in;}
 
-nav{
-  display:none;
-    }
+footer {
+    display: none;
+}
+
+a {
+  text-decoration: none;
+}
+@page {
+  margin: 0.5in;}
+
 
 }
