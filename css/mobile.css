@@ -23,10 +23,10 @@ body {
     padding: .5em;}
 
 .column1of2, .column2of2 {
-    width: 75%;
+    width: 200px;
     margin: 5px;
     align-items: center;
-    overflow: auto;
+    overflow: scroll;
     }
 
 nav li{
@@ -38,7 +38,7 @@ nav li{
 
 header {
   margin: 0 auto;
-  overflow: hidden
+  overflow: scroll;
 }
 
 h1 {
